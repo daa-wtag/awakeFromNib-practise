@@ -7,11 +7,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class C: B {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        print("\(#function):\(#file):\(#line)")
+    }
+    
+    override func bindView() {
+        print("\(#function):\(#file):\(#line)")
     }
 
 
