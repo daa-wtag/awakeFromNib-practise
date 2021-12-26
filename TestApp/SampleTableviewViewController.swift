@@ -7,7 +7,7 @@
 
 import UIKit
 
-class D: UIViewController {
+class SampleTableviewViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -30,7 +30,7 @@ class D: UIViewController {
     }
 }
 
-extension D:UITableViewDataSource, UITableViewDelegate{
+extension SampleTableviewViewController:UITableViewDataSource, UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         print(#function)

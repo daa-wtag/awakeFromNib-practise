@@ -8,23 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		13893B7B270347C5004D8538 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13893B7A270347C5004D8538 /* Student.swift */; };
-		1394FF3526D79EE9002B4394 /* D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1394FF3426D79EE9002B4394 /* D.swift */; };
-		1394FF3826D79EF2002B4394 /* E.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1394FF3726D79EF2002B4394 /* E.swift */; };
+		1394FF3526D79EE9002B4394 /* SampleTableviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1394FF3426D79EE9002B4394 /* SampleTableviewViewController.swift */; };
 		13E949A426D3CE3300FEAF65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E949A326D3CE3300FEAF65 /* AppDelegate.swift */; };
 		13E949A626D3CE3300FEAF65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E949A526D3CE3300FEAF65 /* SceneDelegate.swift */; };
 		13E949A826D3CE3300FEAF65 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E949A726D3CE3300FEAF65 /* Calculator.swift */; };
 		13E949AB26D3CE3300FEAF65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E949A926D3CE3300FEAF65 /* Main.storyboard */; };
 		13E949AD26D3CE3500FEAF65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E949AC26D3CE3500FEAF65 /* Assets.xcassets */; };
 		13E949B026D3CE3500FEAF65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E949AE26D3CE3500FEAF65 /* LaunchScreen.storyboard */; };
-		13E949B926D3CE4B00FEAF65 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E949B826D3CE4B00FEAF65 /* AViewController.swift */; };
-		13E949BC26D3CE7E00FEAF65 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E949BB26D3CE7E00FEAF65 /* BViewController.swift */; };
+		13E949BC26D3CE7E00FEAF65 /* SampleHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E949BB26D3CE7E00FEAF65 /* SampleHomePageViewController.swift */; };
 		13ECA06F2713E00400F26F59 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ECA06E2713E00400F26F59 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		13893B7A270347C5004D8538 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
-		1394FF3426D79EE9002B4394 /* D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D.swift; sourceTree = "<group>"; };
-		1394FF3726D79EF2002B4394 /* E.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E.swift; sourceTree = "<group>"; };
+		1394FF3426D79EE9002B4394 /* SampleTableviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTableviewViewController.swift; sourceTree = "<group>"; };
 		13E949A026D3CE3300FEAF65 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E949A326D3CE3300FEAF65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13E949A526D3CE3300FEAF65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,8 +30,7 @@
 		13E949AC26D3CE3500FEAF65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13E949AF26D3CE3500FEAF65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13E949B126D3CE3500FEAF65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		13E949B826D3CE4B00FEAF65 /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
-		13E949BB26D3CE7E00FEAF65 /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
+		13E949BB26D3CE7E00FEAF65 /* SampleHomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleHomePageViewController.swift; sourceTree = "<group>"; };
 		13ECA06E2713E00400F26F59 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,10 +71,8 @@
 				13E949AC26D3CE3500FEAF65 /* Assets.xcassets */,
 				13E949AE26D3CE3500FEAF65 /* LaunchScreen.storyboard */,
 				13E949B126D3CE3500FEAF65 /* Info.plist */,
-				13E949B826D3CE4B00FEAF65 /* AViewController.swift */,
-				13E949BB26D3CE7E00FEAF65 /* BViewController.swift */,
-				1394FF3426D79EE9002B4394 /* D.swift */,
-				1394FF3726D79EF2002B4394 /* E.swift */,
+				13E949BB26D3CE7E00FEAF65 /* SampleHomePageViewController.swift */,
+				1394FF3426D79EE9002B4394 /* SampleTableviewViewController.swift */,
 				13893B7A270347C5004D8538 /* Student.swift */,
 				13ECA06E2713E00400F26F59 /* CustomTableViewCell.swift */,
 			);
@@ -156,14 +150,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				13ECA06F2713E00400F26F59 /* CustomTableViewCell.swift in Sources */,
-				1394FF3526D79EE9002B4394 /* D.swift in Sources */,
+				1394FF3526D79EE9002B4394 /* SampleTableviewViewController.swift in Sources */,
 				13E949A826D3CE3300FEAF65 /* Calculator.swift in Sources */,
 				13E949A426D3CE3300FEAF65 /* AppDelegate.swift in Sources */,
 				13893B7B270347C5004D8538 /* Student.swift in Sources */,
-				13E949BC26D3CE7E00FEAF65 /* BViewController.swift in Sources */,
-				1394FF3826D79EF2002B4394 /* E.swift in Sources */,
+				13E949BC26D3CE7E00FEAF65 /* SampleHomePageViewController.swift in Sources */,
 				13E949A626D3CE3300FEAF65 /* SceneDelegate.swift in Sources */,
-				13E949B926D3CE4B00FEAF65 /* AViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
