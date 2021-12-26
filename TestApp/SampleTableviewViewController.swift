@@ -15,7 +15,7 @@ class SampleTableviewViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        for i in 0...22 {
+        for i in 0...30 {
             contacts.append("\(i)")
         }
     }
@@ -40,13 +40,17 @@ extension SampleTableviewViewController:UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         print("\(#function) \(indexPath.row)")
         let cell = tableView.dequeueReusableCell(withIdentifier: "newTableCell", for: indexPath) as! CustomTableViewCell
+        print("cell memory block \(cell)")
         cell.textLabel?.text = contacts[indexPath.row]
         cell.index = indexPath.row
+        
+        print("\n")
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "newTableCell", for: indexPath) as! CustomTableViewCell
+        print("cell memory block \(cell)")
         print(#function)
-        tableView.deselectRow(at: indexPath, animated: true)
     }
 }
