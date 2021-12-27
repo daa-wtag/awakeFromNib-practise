@@ -15,18 +15,21 @@ class SampleTableviewViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(#function)
         for i in 0...30 {
             contacts.append("\(i)")
         }
     }
     
     @IBAction func reloaD(_ sender: UIBarButtonItem) {
+        print(#function)
         tableView.reloadData()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        tableView.reloadData()
+        print(#function)
+//        tableView.reloadData()
     }
 }
 

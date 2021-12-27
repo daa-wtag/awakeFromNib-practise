@@ -19,7 +19,7 @@ class CustomTableViewCell: UITableViewCell {
         super.awakeFromNib()
         print("\(#function) \(self.index)")
         self.selectionStyle = .none
-//        self.backgroundColor = .systemOrange
+        self.backgroundColor = .orange
     }
     
     override func prepareForReuse() {
